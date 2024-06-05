@@ -15,6 +15,7 @@
             autofocus
             required
             name="your_name"
+            placeholder="Su SU"
             id="your_name"
             type="text"
           />
@@ -30,7 +31,9 @@
         </td>
 
         <td>
-          <input required name="your_email" id="your_email" type="email" />
+          <input required name="your_email" id="your_email"
+          placeholder="yourname@gmail.com"
+          type="email" />
         </td>
       </tr>
 
@@ -47,6 +50,68 @@
           <input required name="your_password" id="your_password" type="password" />
         </td>
       </tr>
+
+
+    
+      <tr>
+        <td>
+          <label for="">Phone number</label>
+        </td>
+
+        <td>
+          <input type="number" placeholder="093434343" value="093232222">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="male" >male</label>
+          <input type="radio" name="gender" value="male" id="male">
+
+          <label for="female" >female</label>
+          <input type="radio" name="gender" value="female" id="female">
+        </td>
+
+       
+      </tr>
+
+      <tr>
+        <td>
+          <label for="html">Html</label>
+          <input id="html" name="skills" value="html" type="checkbox" checked>
+
+          <label for="css">css</label>
+          <input id="css" name="skills" value="css"  type="checkbox" checked>
+
+          <label for="js">js</label>
+          <input id="js" name="skills" value="js" type="checkbox" checked>
+
+          <label for="c#">c#</label>
+          <input id="c#" name="skills" value="c#" type="checkbox">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <select name="nationality" required id="">
+            <!-- <option value="" selected>Choose</option> -->
+            <option value="mm"  >Myanmar</option>
+            <option value="th" >Thai</option>
+            <option value="ve" selected>Vietname</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="textarea">To the admin</label>
+        </td>
+        <td>
+          
+          <textarea id="textarea" name="" id="" cols="50" rows="5"></textarea>
+        </td>
+      </tr>
+
       
 
     </table>
