@@ -1,0 +1,13 @@
+.heading {
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#para {
+    font-size: 35px;
+}
+.heading2{
+    text-decoration: overline;
+}
