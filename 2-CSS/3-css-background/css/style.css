@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: Sagar;
+    src: url(../fonts/MyanmarSagar.ttf);
+  }
+
+@font-face {
+    font-family: Yinmar;
+    src: url(../fonts/MyanmarYinmar.ttf);
+}
+
+
+.font-test{
+    font-family: Sagar;
+}
+
+.font-test2 {
+    font-family: Yinmar;
+}
