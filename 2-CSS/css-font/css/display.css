@@ -1,0 +1,26 @@
+*{
+    font:30px "Poppins";
+}
+
+.heading-block {
+    display: block;
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+ 
+}
+
+.link-inline {
+    display: inline;
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+}
+
+
+.inline-block {
+    display: inline-block ;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
