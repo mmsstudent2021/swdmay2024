@@ -9,6 +9,9 @@
     src: url(../fonts/MyanmarYinmar.ttf);
 }
 
+body{
+    height: 1000px;
+}
 
 .font-test{
     font-family: Sagar;
@@ -16,4 +19,18 @@
 
 .font-test2 {
     font-family: Yinmar;
+}
+
+.container {
+    height: 500px;
+    /* background-color: aqua; */
+    background-image:
+     url('../images/sunflower.jpg'),
+     url('https://images.unsplash.com/photo-1718019668172-5380fd58f2c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8');
+
+    background-size: 500px;
+    background-repeat:no-repeat;
+    /* background-position: top 200px left 400px; */
+    /* background-attachment: fixed; */
+  
 }
