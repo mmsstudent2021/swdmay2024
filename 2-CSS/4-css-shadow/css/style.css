@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    text-shadow: #fafa 0px 10px 0px  ;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    /* margin: auto; */
+    margin: auto;
+  
+    background-color: aquamarine;
+}
+
+.box:hover{
+    box-shadow: 21px 19px 6px -3px rgba(0,0,0,0.1);
+    transition:  0.5s;
+    background-color: red;
+    border: 2px dotted black;
+    padding: 10px;
+
+}
+
+.visit{
+  font-size: 40px;
+  color: green;
+}
+
+.visit:visited {
+    color: red;
+    font-size: 50px;
+    text-decoration: line-through;
+}
+
+
