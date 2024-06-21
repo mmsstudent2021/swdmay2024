@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background: #1ed01b;
+
+}
+
+
+.box2 {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background: #1ed01b;
+
+}
+
+.box3 {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background: #1ed01b;
+
+}
+
+.box:hover{
+    background-color: aqua;
+    transform: rotate(60deg);
+    transform: translateX(50px);
+    border: 10px solid black;
+    transition: all 1s ease-in-out;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.bg-violet {
+    background-color: #B1AFFF;
+}
+
+.bg-violet:hover {
+    background-color: #241194;
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-red:hover {
+    background-color: rgb(215, 50, 50);
+}
+
+.time-1000{
+    transition: all 1s ease-in-out;
+}
+
+.time-500{
+    transition: all 0.5s ease-in-out;
+}
+
+.time-300{
+    transition: all 0.3s ease-in-out;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.left-10{
+    left: 20px;
+}
+
+.right-10{
+    right: 20px;
+}
+
+.top-10{
+    top: 20px;
+}
+
+.w-300{
+    width: 100px;
+}
+
+.h-300{
+    height: 100px;
+}
+
+.bg-yellow{
+    background-color: #F6F193;
+}
+
+.m-10{
+    margin: 20px;
+}
+
+.h-500{
+    height: 500px;
+}
+
+.p-10{
+    padding: 20px;
+}
+
