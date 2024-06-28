@@ -1,1 +1,3 @@
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+https://docs.fontawesome.com/web/setup/packages
